@@ -1,0 +1,148 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url('images/background.png');
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+}
+.top {
+    background-color: rgba(0, 0, 0, 0.95);
+    padding: 20px;
+    width: 100%;
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    text-align: right;
+}
+.top a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-size: 26px;
+    border: none;
+}
+.top a:hover {
+    color: #007bff;
+}
+
+p{
+    font-size: 20px;
+}
+.div1 img {
+    height: 170px;
+    width: 170px;
+    margin: auto;
+    border-radius: 50%;
+    display: block;
+}
+
+.div1 .h11 {
+    color: white;
+    text-align: center;
+}
+
+.p11 {
+    color: white;
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 2PX solid white;
+}
+.div2 {
+    text-align: center;
+    margin-top: 50px;
+}
+.card{
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    border: 3px solid white;
+    margin: 30px;
+}
+.card1{
+    color: yellow;
+}
+.card1:hover{
+    transition: box-shadow 0.7s;
+    box-shadow: 0px 0px 16px rgba(255, 255, 255, 0.7);
+}
+.card2{
+    color: pink;
+}
+.card2:hover{
+    transition: box-shadow 0.7s;
+    box-shadow: 0px 0px 16px rgba(255, 255, 255, 0.7);
+}
+.card3{
+    color: white;
+}
+.card3:hover{
+    transition: box-shadow 0.7s;
+    box-shadow: 0px 0px 16px rgba(255, 255, 255, 0.7);
+}
+.div3{
+    text-align: center;
+}
+.i4{
+    text-decoration: none;
+
+}
+i{
+    color: white;
+    transition: all 0.7s ease-in-out;
+    transform: scale(2);
+    margin: 20px;
+}
+.i4 i:hover {
+    background-image: linear-gradient(to bottom, red, yellow,blue);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+    transform: scale(3);
+}
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.image-row .img {
+    flex: 1; 
+    margin: 5px; 
+}
+
+.image-row img {
+    width: 100%; 
+    height: auto;
+    display: block; 
+}
+
+
+.i3 i:hover{
+    color: blue;
+    transform: scale(3);
+}
+.i2 i:hover{
+    color: rgb(0, 255, 0);
+    transform: scale(3);
+}
+.i1 i:hover {
+    background-image: linear-gradient(120deg, #833AB4, #FD1D1D, #FCAF45);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transform: scale(3);
+}
+.footer p{
+    display: inline-block;
+    margin-left: 380px;
+    color: #FFD700;
+    font-size: 24px;
+}
+#project h1{
+    position: relative;
+    left: 40%;
+}
